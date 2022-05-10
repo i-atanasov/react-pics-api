@@ -13,7 +13,7 @@ class SearchBar extends React.Component {
         <div className="ui segment">
             <form onSubmit={this.formHandler} className="ui form">
                 <div className='field'>
-                    <label>Search form:</label>
+                    <label>Find 25 images:</label>
                     <input 
                         type='text' 
                         value={this.state.searchTerm} 
